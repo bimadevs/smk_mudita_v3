@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PPDB SMK Mudita Singkawang</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d4111b",
+                        "primary-dark": "#b90e17",
+                        "accent-gold": "#FFC107",
+                        "accent-gold-hover": "#FFB300",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221011",
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#2d1a1b",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        
+        /* Subtle Watermark Pattern */
+        .watermark-bg {
+            background-image: radial-gradient(circle at 50% 50%, rgba(212, 17, 27, 0.03) 0%, transparent 50%),
+                              radial-gradient(circle at 100% 0%, rgba(212, 17, 27, 0.02) 0%, transparent 30%);
+            background-attachment: fixed;
+        }
+        
+        .dark .watermark-bg {
+            background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#181111] dark:text-gray-100 font-display watermark-bg relative transition-colors duration-200">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full bg-surface-light dark:bg-surface-dark border-b border-[#f4f0f0] dark:border-[#3a2a2a] shadow-sm">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-10 py-3">
+<div class="flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-4 text-[#181111] dark:text-white">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h2 class="text-[#181111] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">SMK Mudita Singkawang</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#181111] dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Home</a>
+<a class="text-[#181111] dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">About</a>
+<a class="text-[#181111] dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Majors</a>
+<a class="text-[#181111] dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Admissions</a>
+<a class="text-[#181111] dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary-dark text-white text-sm font-bold leading-normal tracking-[0.015em] transition-colors">
+<span class="truncate">Portal Siswa</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="lg:hidden text-[#181111] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</div>
+</div>
+</div>
+</header>
+<main class="flex flex-col items-center w-full">
+<!-- Hero Section -->
+<section class="w-full px-4 sm:px-10 py-5 flex justify-center">
+<div class="w-full max-w-[1100px] rounded-xl overflow-hidden relative group">
+<div class="absolute inset-0 bg-black/40 z-10 rounded-xl"></div>
+<div class="relative min-h-[500px] flex flex-col gap-6 items-center justify-center p-8 bg-cover bg-center rounded-xl z-0" data-alt="Students of SMK Mudita Singkawang working on a computer project in a modern lab" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuACPZWsxvZtNwYEmesnOikh9Y7ZLqulXko3IFkRexb0RbRWgsma5Ebe7NpTuPBAjYtI2Oa9c9eH7qb7244ygJD3EYEgdzfTDOtpdCzbpQ9h2F23dgqboN7ZsMiwUYeWNVCTc5LMYqZkP3t1HA4kFIpze6q-E9ybVZW4meqVJvJ0Nzsy-eHY4l60x7dCOaFKn7nRZG-4Roo6ubAfgFNUevIvb_AVeU499IXtOz9HWSzmqJooV9WNoVONX7HOqmYRBSSUPg40NEFVsK4U");'>
+<div class="z-20 flex flex-col gap-4 text-center max-w-[800px]">
+<span class="text-white/90 text-sm font-bold uppercase tracking-widest bg-primary/80 px-3 py-1 rounded-full w-fit mx-auto backdrop-blur-sm">Admissions Open</span>
+<h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-black leading-tight tracking-[-0.033em] drop-shadow-lg">
+                            Penerimaan Peserta Didik Baru (PPDB) 2024/2025
+                        </h1>
+<h2 class="text-white/90 text-base sm:text-lg font-normal leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+                            Join the vocational school of choice. Build your future with SMK Mudita Singkawang based on character and competence.
+                        </h2>
+</div>
+<div class="z-20 flex flex-col sm:flex-row gap-4 mt-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-accent-gold hover:bg-accent-gold-hover text-[#181111] text-base font-bold shadow-lg transform hover:scale-105 transition-all duration-200">
+                            Apply Online Now
+                        </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-8 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white text-base font-bold transition-all">
+                            Download Brochure
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats / Quick Info -->
+<section class="w-full max-w-[960px] px-4 py-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-800 text-center">
+<div class="text-primary font-bold text-3xl">6</div>
+<div class="text-gray-500 dark:text-gray-400 text-sm font-medium">Majors</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-800 text-center">
+<div class="text-primary font-bold text-3xl">100%</div>
+<div class="text-gray-500 dark:text-gray-400 text-sm font-medium">Accredited</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-800 text-center">
+<div class="text-primary font-bold text-3xl">24h</div>
+<div class="text-gray-500 dark:text-gray-400 text-sm font-medium">Online Support</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-800 text-center">
+<div class="text-primary font-bold text-3xl">A</div>
+<div class="text-gray-500 dark:text-gray-400 text-sm font-medium">Grade School</div>
+</div>
+</section>
+<!-- Enrollment Flow (Infographic) -->
+<section class="w-full max-w-[960px] px-4 py-10">
+<div class="mb-8">
+<h2 class="text-[#181111] dark:text-white text-2xl md:text-3xl font-bold leading-tight tracking-tight">Enrollment Flow</h2>
+<p class="text-gray-500 dark:text-gray-400 mt-2">Follow these 4 simple steps to become a student.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+<!-- Connecting Line (Desktop) -->
+<div class="hidden md:block absolute top-8 left-0 w-full h-1 bg-gray-200 dark:bg-gray-700 -z-10 transform translate-y-1/2"></div>
+<!-- Step 1 -->
+<div class="flex flex-col items-center text-center bg-surface-light dark:bg-surface-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm relative group hover:border-primary transition-colors">
+<div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mb-4 shadow-lg z-10 border-4 border-white dark:border-surface-dark">
+<span class="material-symbols-outlined text-3xl">app_registration</span>
+</div>
+<h3 class="font-bold text-lg mb-2 dark:text-white">1. Register Online</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Fill out the PPDB form and create your student account.</p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center text-center bg-surface-light dark:bg-surface-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm relative group hover:border-primary transition-colors">
+<div class="w-16 h-16 rounded-full bg-surface-light dark:bg-surface-dark border-2 border-primary text-primary flex items-center justify-center mb-4 shadow-md z-10">
+<span class="material-symbols-outlined text-3xl">upload_file</span>
+</div>
+<h3 class="font-bold text-lg mb-2 dark:text-white">2. Upload Docs</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Submit required documents (KK, Diploma, Photos) digitally.</p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center text-center bg-surface-light dark:bg-surface-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm relative group hover:border-primary transition-colors">
+<div class="w-16 h-16 rounded-full bg-surface-light dark:bg-surface-dark border-2 border-primary text-primary flex items-center justify-center mb-4 shadow-md z-10">
+<span class="material-symbols-outlined text-3xl">edit_note</span>
+</div>
+<h3 class="font-bold text-lg mb-2 dark:text-white">3. Test &amp; Interview</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Attend the academic potential test and interview session.</p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col items-center text-center bg-surface-light dark:bg-surface-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm relative group hover:border-primary transition-colors">
+<div class="w-16 h-16 rounded-full bg-surface-light dark:bg-surface-dark border-2 border-primary text-primary flex items-center justify-center mb-4 shadow-md z-10">
+<span class="material-symbols-outlined text-3xl">check_circle</span>
+</div>
+<h3 class="font-bold text-lg mb-2 dark:text-white">4. Re-registration</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">If accepted, complete administrative fees and official enrollment.</p>
+</div>
+</div>
+</section>
+<!-- Main Content Grid: Timeline & Requirements -->
+<section class="w-full max-w-[960px] px-4 py-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Timeline Column -->
+<div class="flex flex-col">
+<h2 class="text-[#181111] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-6 border-b border-gray-100 dark:border-gray-800 mb-6">Registration Timeline</h2>
+<div class="flex flex-col gap-0">
+<!-- Item 1 -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="size-10 rounded-full bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-300 flex items-center justify-center shrink-0 z-10">
+<span class="material-symbols-outlined text-xl">calendar_month</span>
+</div>
+<div class="w-0.5 bg-green-200 dark:bg-green-900 h-full"></div>
+</div>
+<div class="pb-8 pt-1">
+<div class="flex items-center gap-2 mb-1">
+<h3 class="text-[#181111] dark:text-white text-lg font-bold">Gelombang 1 (Early Bird)</h3>
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300 uppercase tracking-wide">Open Now</span>
+</div>
+<p class="text-primary font-medium text-sm mb-2">Feb 1 - April 30, 2024</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">Special discount on development fees. Priority seat allocation.</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="size-10 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 flex items-center justify-center shrink-0 z-10 border-2 border-white dark:border-surface-dark">
+<span class="material-symbols-outlined text-xl">event_upcoming</span>
+</div>
+<div class="w-0.5 bg-gray-200 dark:bg-gray-800 h-full"></div>
+</div>
+<div class="pb-8 pt-1">
+<div class="flex items-center gap-2 mb-1">
+<h3 class="text-gray-700 dark:text-gray-300 text-lg font-bold">Gelombang 2 (Regular)</h3>
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400 uppercase tracking-wide">Upcoming</span>
+</div>
+<p class="text-gray-500 dark:text-gray-400 font-medium text-sm mb-2">May 1 - June 30, 2024</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm">Regular admission fees apply. Subject to remaining seat availability.</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="size-10 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 flex items-center justify-center shrink-0 z-10 border-2 border-white dark:border-surface-dark">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+</div>
+<div class="pt-1">
+<h3 class="text-gray-700 dark:text-gray-300 text-lg font-bold mb-1">Start of Academic Year</h3>
+<p class="text-gray-500 dark:text-gray-400 font-medium text-sm mb-2">July 15, 2024</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm">MPLS (Orientation) begins for all new students.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Requirements Column -->
+<div class="flex flex-col">
+<h2 class="text-[#181111] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-6 border-b border-gray-100 dark:border-gray-800 mb-6">Requirements Checklist</h2>
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-6 border border-gray-100 dark:border-gray-800 shadow-sm">
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-6">Prepare digital scans of the following documents before applying.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<div class="mt-0.5 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white">Kartu Keluarga (KK)</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Scan of original Family Card.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<div class="mt-0.5 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white">Akta Kelahiran</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Scan of original Birth Certificate.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<div class="mt-0.5 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white">Ijazah / SKL SMP/MTs</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Diploma or Certificate of Graduation.</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<div class="mt-0.5 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white">Pas Foto (3x4)</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Red background, formal attire (File format: JPG/PNG).</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<div class="mt-0.5 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white">KIP / KPS / PKH (Optional)</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Scan of welfare cards if applicable for scholarships.</p>
+</div>
+</li>
+</ul>
+<div class="mt-8 pt-6 border-t border-gray-100 dark:border-gray-700">
+<a class="flex items-center gap-2 text-primary font-bold text-sm hover:underline" href="#">
+<span class="material-symbols-outlined text-lg">download</span>
+                            Download Complete Guide PDF
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="w-full bg-white dark:bg-surface-dark border-y border-gray-100 dark:border-gray-800 py-12">
+<div class="max-w-[800px] mx-auto px-4">
+<div class="text-center mb-10">
+<h2 class="text-[#181111] dark:text-white text-2xl font-bold mb-2">Frequently Asked Questions</h2>
+<p class="text-gray-500 dark:text-gray-400">Common questions about the admission process.</p>
+</div>
+<div class="space-y-4">
+<!-- FAQ Item 1 -->
+<details class="group bg-background-light dark:bg-background-dark rounded-lg p-4 [&amp;_summary::-webkit-details-marker]:hidden open:ring-1 open:ring-primary/20">
+<summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 dark:text-white">
+<h3 class="font-bold">How much is the registration fee?</h3>
+<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
+                            The registration form fee is IDR 150.000. Development fees vary by major and registration wave. Early bird registrants get a 20% discount on development fees.
+                        </p>
+</details>
+<!-- FAQ Item 2 -->
+<details class="group bg-background-light dark:bg-background-dark rounded-lg p-4 [&amp;_summary::-webkit-details-marker]:hidden open:ring-1 open:ring-primary/20">
+<summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 dark:text-white">
+<h3 class="font-bold">Can I change my major after applying?</h3>
+<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
+                            Yes, you can request a change of major during the interview phase, provided there are still seats available in the desired major.
+                        </p>
+</details>
+<!-- FAQ Item 3 -->
+<details class="group bg-background-light dark:bg-background-dark rounded-lg p-4 [&amp;_summary::-webkit-details-marker]:hidden open:ring-1 open:ring-primary/20">
+<summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 dark:text-white">
+<h3 class="font-bold">Is there a scholarship program?</h3>
+<span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
+                            SMK Mudita offers merit-based scholarships for students with high academic or non-academic achievements. We also facilitate government aid (PIP) for eligible students.
+                        </p>
+</details>
+</div>
+</div>
+</section>
+<!-- Contact / Help -->
+<section class="w-full max-w-[960px] px-4 py-16 text-center">
+<div class="bg-primary/5 dark:bg-primary/10 rounded-2xl p-8 md:p-12 border border-primary/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-4">support_agent</span>
+<h2 class="text-2xl font-bold text-[#181111] dark:text-white mb-3">Still have questions?</h2>
+<p class="text-gray-600 dark:text-gray-300 max-w-lg mx-auto mb-8">Our admission office is available Monday to Saturday, 08:00 - 14:00. We are happy to help you with the process.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+<span class="material-symbols-outlined">chat</span>
+                        Chat via WhatsApp
+                    </button>
+<button class="flex items-center justify-center gap-2 bg-surface-light dark:bg-surface-dark border border-gray-300 dark:border-gray-600 text-[#181111] dark:text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined">call</span>
+                        (0562) 631-xxx
+                    </button>
+</div>
+</div>
+</section>
+<!-- Bottom Spacer for Sticky Bar -->
+<div class="h-24"></div>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800 pt-12 pb-24 md:pb-12">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 text-primary font-bold text-xl mb-4">
+<span class="material-symbols-outlined">school</span>
+                        SMK Mudita
+                    </div>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                        Vocational High School Singkawang.<br/>
+                        Building Character, Competence, and Compassion.
+                    </p>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white mb-4">Admissions</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">How to Apply</a></li>
+<li><a class="hover:text-primary" href="#">Tuition &amp; Fees</a></li>
+<li><a class="hover:text-primary" href="#">Scholarships</a></li>
+<li><a class="hover:text-primary" href="#">Majors</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white mb-4">School</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">About Us</a></li>
+<li><a class="hover:text-primary" href="#">News &amp; Events</a></li>
+<li><a class="hover:text-primary" href="#">Alumni</a></li>
+<li><a class="hover:text-primary" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-[#181111] dark:text-white mb-4">Address</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                        Jl. Sama-Sama No. 123<br/>
+                        Singkawang Barat, Kalimantan Barat<br/>
+                        Indonesia 79123
+                    </p>
+</div>
+</div>
+<div class="border-t border-gray-200 dark:border-gray-800 pt-8 text-center md:text-left text-sm text-gray-400">
+                © 2024 SMK Mudita Singkawang. All rights reserved.
+            </div>
+</div>
+</footer>
+<!-- Sticky CTA Bar -->
+<div class="fixed bottom-0 left-0 w-full bg-surface-light dark:bg-surface-dark border-t border-primary/20 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] p-4 z-50 md:hidden">
+<button class="w-full flex items-center justify-center gap-2 rounded-lg h-12 bg-accent-gold hover:bg-accent-gold-hover text-[#181111] text-lg font-bold shadow-md transition-colors">
+            Apply Online Now
+            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<!-- Floating Action Button for Desktop -->
+<div class="hidden md:block fixed bottom-8 right-8 z-50">
+<button class="flex items-center gap-3 rounded-full h-14 pl-6 pr-2 bg-accent-gold hover:bg-accent-gold-hover text-[#181111] text-lg font-bold shadow-xl transform hover:-translate-y-1 transition-all group">
+            Apply Now
+            <div class="size-10 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</button>
+</div>
+</body></html>
