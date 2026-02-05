@@ -8,8 +8,15 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-lexend);
+  --font-body: var(--font-noto-sans);
+
+  --color-primary: #d4111b;
+  --color-primary-dark: #a30d15;
+  --color-accent-gold: #C5A059;
+  --color-background-light: #f8f6f6;
+  --color-background-dark: #221011;
+  --color-neutral-dark: #262626;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +29,110 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}
+
+.bg-lattice {
+  background-image: radial-gradient(#d4111b 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.03;
+}
+
+.dark .bg-lattice {
+  opacity: 0.1;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.corner-motif {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-color: #d4111b;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.corner-top-left {
+  top: 0;
+  left: 0;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-top-left-radius: 8px;
+}
+
+.corner-bottom-right {
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+  border-bottom-right-radius: 8px;
+}
+
+.corner-motif::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: inherit;
+}
+
+.corner-top-left::after {
+  top: 4px;
+  left: 4px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-top-left-radius: 4px;
+}
+
+.corner-bottom-right::after {
+  bottom: 4px;
+  right: 4px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-bottom-right-radius: 4px;
+}
+
+.masonry-grid {
+  column-count: 1;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+/* Subtle Watermark Pattern */
+.watermark-bg {
+  background-image: radial-gradient(circle at 50% 50%, rgba(212, 17, 27, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 100% 0%, rgba(212, 17, 27, 0.02) 0%, transparent 30%);
+  background-attachment: fixed;
+}
+
+.dark .watermark-bg {
+  background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
 }
