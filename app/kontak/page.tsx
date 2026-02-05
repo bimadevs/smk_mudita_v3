@@ -15,7 +15,7 @@ export default function ContactPage() {
             </h1>
             <div className="absolute bottom-1 left-0 w-full h-3 bg-primary/10 rounded-full -z-0"></div>
           </div>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-800 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
             We are here to answer your questions regarding admissions, student
             affairs, and school events. Reach out to us and become part of our
             community.
@@ -34,13 +34,13 @@ export default function ContactPage() {
                 <span className="material-symbols-outlined text-2xl">chat</span>
               </div>
               <div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">
+                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
                   WhatsApp
                 </p>
                 <p className="text-lg font-bold text-neutral-dark dark:text-white">
                   +62 812-xxxx-xxxx
                 </p>
-                <p className="text-xs text-gray-400 mt-1">
+                <p className="text-xs text-gray-600 mt-1">
                   Available 9am - 4pm
                 </p>
               </div>
@@ -54,13 +54,13 @@ export default function ContactPage() {
                 <span className="material-symbols-outlined text-2xl">mail</span>
               </div>
               <div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">
+                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
                   Email
                 </p>
                 <p className="text-lg font-bold text-neutral-dark dark:text-white">
                   info@smkmudita.sch.id
                 </p>
-                <p className="text-xs text-gray-400 mt-1">General inquiries</p>
+                <p className="text-xs text-gray-600 mt-1">General inquiries</p>
               </div>
             </Link>
 
@@ -72,13 +72,13 @@ export default function ContactPage() {
                 <span className="material-symbols-outlined text-2xl">call</span>
               </div>
               <div>
-                <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">
+                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
                   Phone
                 </p>
                 <p className="text-lg font-bold text-neutral-dark dark:text-white">
                   (0562) 63xxxx
                 </p>
-                <p className="text-xs text-gray-400 mt-1">Front Office</p>
+                <p className="text-xs text-gray-600 mt-1">Front Office</p>
               </div>
             </Link>
 
@@ -117,7 +117,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="flex flex-col gap-1.5">
                     <label
-                      className="text-sm font-semibold text-gray-700 dark:text-gray-300"
+                      className="text-sm font-bold text-neutral-dark dark:text-gray-300"
                       htmlFor="firstName"
                     >
                       First Name
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label
-                      className="text-sm font-semibold text-gray-700 dark:text-gray-300"
+                      className="text-sm font-bold text-neutral-dark dark:text-gray-300"
                       htmlFor="lastName"
                     >
                       Last Name
@@ -146,7 +146,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col gap-1.5">
                   <label
-                    className="text-sm font-semibold text-gray-700 dark:text-gray-300"
+                    className="text-sm font-bold text-neutral-dark dark:text-gray-300"
                     htmlFor="email"
                   >
                     Email Address
@@ -160,7 +160,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col gap-1.5">
                   <label
-                    className="text-sm font-semibold text-gray-700 dark:text-gray-300"
+                    className="text-sm font-bold text-neutral-dark dark:text-gray-300"
                     htmlFor="category"
                   >
                     I am a...
@@ -177,7 +177,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col gap-1.5">
                   <label
-                    className="text-sm font-semibold text-gray-700 dark:text-gray-300"
+                    className="text-sm font-bold text-neutral-dark dark:text-gray-300"
                     htmlFor="message"
                   >
                     Message
@@ -223,7 +223,7 @@ export default function ContactPage() {
                 <h4 className="font-bold text-neutral-dark dark:text-white text-lg">
                   SMK Mudita Singkawang
                 </h4>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-gray-700 dark:text-gray-400">
                   Jl. Diponegoro No. XX, Singkawang
                 </p>
               </div>

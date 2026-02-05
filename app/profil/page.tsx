@@ -37,7 +37,7 @@ export default function Profile() {
                             <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark dark:text-gray-100 leading-tight">
                                 Excellence Recognized Nationally
                             </h2>
-                            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                            <p className="text-lg text-gray-800 dark:text-gray-300 leading-relaxed">
                                 We are committed to maintaining high standards of education. Our institution is proud to be recognized with an <strong className="text-primary">&apos;A&apos; Accreditation</strong>, reflecting our dedication to quality vocational training, character development, and spiritual growth based on Buddhist principles.
                             </p>
                             <div className="flex items-center gap-2 text-primary font-bold cursor-pointer hover:underline">
@@ -50,7 +50,7 @@ export default function Profile() {
                             <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl transform group-hover:scale-110 transition-transform duration-500"></div>
                             <div className="relative size-48 md:size-56 bg-gradient-to-br from-white to-gray-50 dark:from-background-dark dark:to-black border-[6px] border-primary rounded-full flex flex-col items-center justify-center shadow-2xl text-center p-4">
                                 <span className="material-symbols-outlined text-4xl text-primary mb-1">verified</span>
-                                <span className="text-xs uppercase tracking-widest text-gray-500 dark:text-gray-400 font-semibold">National Board</span>
+                                <span className="text-xs uppercase tracking-widest text-gray-700 dark:text-gray-400 font-semibold">National Board</span>
                                 <span className="text-6xl font-black text-neutral-dark dark:text-gray-100 leading-none my-1">A</span>
                                 <span className="text-sm font-bold text-primary uppercase">Excellent</span>
                                 <div className="mt-2 w-16 h-1 bg-primary rounded-full"></div>
@@ -70,7 +70,7 @@ export default function Profile() {
                                 <span className="material-symbols-outlined text-3xl">visibility</span>
                             </div>
                             <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Vision</h3>
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            <p className="text-gray-800 dark:text-gray-300 leading-relaxed">
                                 To become a leading vocational high school that produces graduates who are competent, innovative, and possess noble character based on universal spiritual values, ready to compete in the global era.
                             </p>
                         </div>
@@ -80,7 +80,7 @@ export default function Profile() {
                                 <span className="material-symbols-outlined text-3xl">flag</span>
                             </div>
                             <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Mission</h3>
-                            <ul className="text-gray-700 dark:text-gray-300 space-y-3 list-none">
+                            <ul className="text-gray-800 dark:text-gray-300 space-y-3 list-none">
                                 <li className="flex items-start gap-3">
                                     <span className="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
                                     <span>Implement rigorous vocational training aligned with industry standards.</span>
@@ -114,7 +114,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">1995</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">Foundation Established</h3>
-                            <p className="text-gray-700 dark:text-gray-400 mt-2">
+                            <p className="text-gray-800 dark:text-gray-400 mt-2">
                                 The Mudita Foundation was established with the goal of providing quality education and spiritual guidance to the youth of Singkawang.
                             </p>
                         </div>
@@ -129,7 +129,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2000</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">First Vocational Class</h3>
-                            <p className="text-gray-700 dark:text-gray-400 mt-2">
+                            <p className="text-gray-800 dark:text-gray-400 mt-2">
                                 SMK Mudita officially opened its doors with its first batch of students in Business and Management.
                             </p>
                         </div>
@@ -144,7 +144,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2010</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">New Campus Opening</h3>
-                            <p className="text-gray-700 dark:text-gray-400 mt-2">
+                            <p className="text-gray-800 dark:text-gray-400 mt-2">
                                 Expansion to the current modern campus facility to accommodate growing student numbers and new technical workshops.
                             </p>
                         </div>
@@ -158,7 +158,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2022</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">National Accreditation A</h3>
-                            <p className="text-gray-700 dark:text-gray-400 mt-2">
+                            <p className="text-gray-800 dark:text-gray-400 mt-2">
                                 Achieved the highest level of national accreditation, confirming our status as a premier vocational institution in West Kalimantan.
                             </p>
                         </div>
@@ -171,7 +171,7 @@ export default function Profile() {
                 <div className="max-w-[1280px] mx-auto">
                     <div className="text-center max-w-2xl mx-auto mb-16">
                         <h2 className="text-3xl font-bold text-neutral-dark dark:text-gray-100 mb-4">Organizational Structure</h2>
-                        <p className="text-gray-700 dark:text-gray-400">Meet the dedicated leadership team guiding SMK Mudita towards educational excellence.</p>
+                        <p className="text-gray-800 dark:text-gray-400">Meet the dedicated leadership team guiding SMK Mudita towards educational excellence.</p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {/* Principal */}
@@ -226,7 +226,7 @@ export default function Profile() {
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                         <div>
                             <h2 className="text-3xl font-bold text-neutral-dark dark:text-gray-100 mb-2">Campus Facilities</h2>
-                            <p className="text-gray-700 dark:text-gray-400 max-w-xl">
+                            <p className="text-gray-800 dark:text-gray-400 max-w-xl">
                                 Modern laboratories, comfortable learning spaces, and a spiritual center designed to support holistic student development.
                             </p>
                         </div>
