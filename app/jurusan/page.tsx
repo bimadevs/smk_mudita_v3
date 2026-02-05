@@ -86,7 +86,7 @@ export default function JurusanPage() {
                     href="#"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 text-neutral-dark dark:text-gray-300 font-medium border-l-4 border-transparent hover:border-gray-300 transition-all group"
                   >
-                    <span className="material-symbols-outlined text-gray-400 group-hover:text-neutral-dark transition-colors">
+                    <span className="material-symbols-outlined text-gray-600 group-hover:text-neutral-dark transition-colors">
                       calculate
                     </span>
                     <span className="text-sm">Akuntansi Keuangan</span>
@@ -95,7 +95,7 @@ export default function JurusanPage() {
                     href="#"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 text-neutral-dark dark:text-gray-300 font-medium border-l-4 border-transparent hover:border-gray-300 transition-all group"
                   >
-                    <span className="material-symbols-outlined text-gray-400 group-hover:text-neutral-dark transition-colors">
+                    <span className="material-symbols-outlined text-gray-600 group-hover:text-neutral-dark transition-colors">
                       storefront
                     </span>
                     <span className="text-sm">Bisnis Daring & Pemasaran</span>
@@ -104,7 +104,7 @@ export default function JurusanPage() {
                     href="#"
                     className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 text-neutral-dark dark:text-gray-300 font-medium border-l-4 border-transparent hover:border-gray-300 transition-all group"
                   >
-                    <span className="material-symbols-outlined text-gray-400 group-hover:text-neutral-dark transition-colors">
+                    <span className="material-symbols-outlined text-gray-600 group-hover:text-neutral-dark transition-colors">
                       apartment
                     </span>
                     <span className="text-sm">
@@ -145,7 +145,7 @@ export default function JurusanPage() {
                 <h2 className="text-3xl lg:text-4xl font-bold text-neutral-dark dark:text-white tracking-tight">
                   Teknik Komputer dan Jaringan
                 </h2>
-                <p className="text-lg text-neutral-dark/80 dark:text-gray-400 leading-relaxed mt-2">
+                <p className="text-lg text-gray-800 dark:text-gray-400 leading-relaxed mt-2">
                   Program keahlian yang fokus pada penguasaan keterampilan
                   instalasi, konfigurasi, dan maintenance jaringan komputer baik
                   lokal maupun luas, serta administrasi server.
@@ -159,7 +159,7 @@ export default function JurusanPage() {
                   <h3 className="text-xl font-bold text-neutral-dark dark:text-white mb-4 border-b pb-2 border-gray-100 dark:border-gray-700">
                     Deskripsi Kompetensi
                   </h3>
-                  <div className="prose prose-red dark:prose-invert max-w-none text-neutral-dark/80 dark:text-gray-300">
+                  <div className="prose prose-red dark:prose-invert max-w-none text-gray-800 dark:text-gray-300">
                     <p className="mb-4">
                       Siswa jurusan TKJ dibekali dengan kemampuan merakit
                       personal computer (PC), instalasi sistem operasi dan
@@ -232,7 +232,7 @@ export default function JurusanPage() {
                     ].map((career, i) => (
                       <li
                         key={i}
-                        className="flex items-start gap-3 text-sm text-neutral-dark/80 dark:text-gray-300"
+                        className="flex items-start gap-3 text-sm text-gray-800 dark:text-gray-300"
                       >
                         <span className="material-symbols-outlined text-primary text-lg shrink-0">
                           check_circle
@@ -278,7 +278,7 @@ export default function JurusanPage() {
           <h2 className="text-2xl font-bold text-neutral-dark dark:text-white">
             Mitra Industri (DUDI)
           </h2>
-          <p className="text-neutral-dark/70 dark:text-gray-400 mt-2 text-sm">
+          <p className="text-gray-700 dark:text-gray-400 mt-2 text-sm">
             Kami bekerjasama dengan perusahaan terkemuka untuk program magang
             dan penyerapan tenaga kerja.
           </p>
