@@ -70,7 +70,7 @@ export default function Profile() {
                                 <span className="material-symbols-outlined text-3xl">visibility</span>
                             </div>
                             <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Vision</h3>
-                            <p className="text-gray-800 dark:text-gray-300 leading-relaxed">
+                            <p className="text-gray-900 dark:text-gray-300 leading-relaxed">
                                 To become a leading vocational high school that produces graduates who are competent, innovative, and possess noble character based on universal spiritual values, ready to compete in the global era.
                             </p>
                         </div>
@@ -80,7 +80,7 @@ export default function Profile() {
                                 <span className="material-symbols-outlined text-3xl">flag</span>
                             </div>
                             <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Mission</h3>
-                            <ul className="text-gray-800 dark:text-gray-300 space-y-3 list-none">
+                            <ul className="text-gray-900 dark:text-gray-300 space-y-3 list-none">
                                 <li className="flex items-start gap-3">
                                     <span className="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
                                     <span>Implement rigorous vocational training aligned with industry standards.</span>
@@ -114,7 +114,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">1995</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">Foundation Established</h3>
-                            <p className="text-gray-800 dark:text-gray-400 mt-2">
+                            <p className="text-gray-900 dark:text-gray-400 mt-2">
                                 The Mudita Foundation was established with the goal of providing quality education and spiritual guidance to the youth of Singkawang.
                             </p>
                         </div>
@@ -129,7 +129,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2000</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">First Vocational Class</h3>
-                            <p className="text-gray-800 dark:text-gray-400 mt-2">
+                            <p className="text-gray-900 dark:text-gray-400 mt-2">
                                 SMK Mudita officially opened its doors with its first batch of students in Business and Management.
                             </p>
                         </div>
@@ -144,7 +144,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2010</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">New Campus Opening</h3>
-                            <p className="text-gray-800 dark:text-gray-400 mt-2">
+                            <p className="text-gray-900 dark:text-gray-400 mt-2">
                                 Expansion to the current modern campus facility to accommodate growing student numbers and new technical workshops.
                             </p>
                         </div>
@@ -158,7 +158,7 @@ export default function Profile() {
                         <div className="flex flex-1 flex-col py-3">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2022</span>
                             <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">National Accreditation A</h3>
-                            <p className="text-gray-800 dark:text-gray-400 mt-2">
+                            <p className="text-gray-900 dark:text-gray-400 mt-2">
                                 Achieved the highest level of national accreditation, confirming our status as a premier vocational institution in West Kalimantan.
                             </p>
                         </div>
@@ -226,14 +226,14 @@ export default function Profile() {
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                         <div>
                             <h2 className="text-3xl font-bold text-neutral-dark dark:text-gray-100 mb-2">Campus Facilities</h2>
-                            <p className="text-gray-800 dark:text-gray-400 max-w-xl">
+                            <p className="text-gray-900 dark:text-gray-400 max-w-xl">
                                 Modern laboratories, comfortable learning spaces, and a spiritual center designed to support holistic student development.
                             </p>
                         </div>
                         <div className="flex gap-2">
                             <button className="px-4 py-2 rounded-full bg-primary text-white text-sm font-medium">All</button>
-                            <button className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Academic</button>
-                            <button className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Spiritual</button>
+                            <button className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Academic</button>
+                            <button className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Spiritual</button>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[240px]">
