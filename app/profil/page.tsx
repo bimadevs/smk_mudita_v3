@@ -29,15 +29,15 @@ export default function Profile() {
             </section>
 
             {/* Intro & Accreditation Badge */}
-            <section className="py-16 px-4 md:px-10 bg-white dark:bg-background-dark relative overflow-hidden">
+            <section className="py-16 px-4 md:px-10 bg-gradient-to-b from-gray-900 to-background-dark relative overflow-hidden">
                 <div className="absolute inset-0 bg-lattice pointer-events-none"></div>
                 <div className="max-w-[960px] mx-auto relative z-10">
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="flex-1 space-y-6">
-                            <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark dark:text-gray-100 leading-tight">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
                                 Excellence Recognized Nationally
                             </h2>
-                            <p className="text-lg text-gray-800 dark:text-gray-300 leading-relaxed">
+                            <p className="text-lg text-gray-300 leading-relaxed">
                                 We are committed to maintaining high standards of education. Our institution is proud to be recognized with an <strong className="text-primary">&apos;A&apos; Accreditation</strong>, reflecting our dedication to quality vocational training, character development, and spiritual growth based on Buddhist principles.
                             </p>
                             <div className="flex items-center gap-2 text-primary font-bold cursor-pointer hover:underline">
@@ -48,10 +48,10 @@ export default function Profile() {
                         {/* Badge Component */}
                         <div className="shrink-0 relative group">
                             <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl transform group-hover:scale-110 transition-transform duration-500"></div>
-                            <div className="relative size-48 md:size-56 bg-gradient-to-br from-white to-gray-50 dark:from-background-dark dark:to-black border-[6px] border-primary rounded-full flex flex-col items-center justify-center shadow-2xl text-center p-4">
+                            <div className="relative size-48 md:size-56 bg-gradient-to-br from-gray-900 to-gray-800 border-[6px] border-primary rounded-full flex flex-col items-center justify-center shadow-2xl text-center p-4">
                                 <span className="material-symbols-outlined text-4xl text-primary mb-1">verified</span>
-                                <span className="text-xs uppercase tracking-widest text-gray-700 dark:text-gray-400 font-semibold">National Board</span>
-                                <span className="text-6xl font-black text-neutral-dark dark:text-gray-100 leading-none my-1">A</span>
+                                <span className="text-xs uppercase tracking-widest text-gray-400 font-semibold">National Board</span>
+                                <span className="text-6xl font-black text-white leading-none my-1">A</span>
                                 <span className="text-sm font-bold text-primary uppercase">Excellent</span>
                                 <div className="mt-2 w-16 h-1 bg-primary rounded-full"></div>
                             </div>
@@ -61,26 +61,26 @@ export default function Profile() {
             </section>
 
             {/* Vision & Mission */}
-            <section className="py-20 px-4 md:px-10 bg-background-light dark:bg-background-dark">
+            <section className="py-20 px-4 md:px-10 bg-gradient-to-br from-background-dark via-background-dark to-primary/10">
                 <div className="max-w-[1080px] mx-auto">
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* Vision Card */}
-                        <div className="bg-white dark:bg-surface-dark p-10 rounded-2xl shadow-sm border-t-4 border-primary flex flex-col items-start gap-4 hover:shadow-md transition-shadow">
-                            <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                        <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-10 rounded-2xl shadow-lg border-t-4 border-primary flex flex-col items-start gap-4 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
+                            <div className="p-3 bg-primary/20 rounded-lg text-primary">
                                 <span className="material-symbols-outlined text-3xl">visibility</span>
                             </div>
-                            <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Vision</h3>
-                            <p className="text-gray-900 dark:text-gray-300 leading-relaxed">
+                            <h3 className="text-2xl font-bold text-white">Our Vision</h3>
+                            <p className="text-gray-300 leading-relaxed">
                                 To become a leading vocational high school that produces graduates who are competent, innovative, and possess noble character based on universal spiritual values, ready to compete in the global era.
                             </p>
                         </div>
                         {/* Mission Card */}
-                        <div className="bg-white dark:bg-surface-dark p-10 rounded-2xl shadow-sm border-t-4 border-neutral-dark dark:border-gray-500 flex flex-col items-start gap-4 hover:shadow-md transition-shadow">
-                            <div className="p-3 bg-neutral-dark/5 dark:bg-white/10 rounded-lg text-neutral-dark dark:text-gray-100">
+                        <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-10 rounded-2xl shadow-lg border-t-4 border-accent-gold flex flex-col items-start gap-4 hover:shadow-xl hover:shadow-accent-gold/10 transition-all duration-300">
+                            <div className="p-3 bg-accent-gold/20 rounded-lg text-accent-gold">
                                 <span className="material-symbols-outlined text-3xl">flag</span>
                             </div>
-                            <h3 className="text-2xl font-bold text-neutral-dark dark:text-gray-100">Our Mission</h3>
-                            <ul className="text-gray-900 dark:text-gray-300 space-y-3 list-none">
+                            <h3 className="text-2xl font-bold text-white">Our Mission</h3>
+                            <ul className="text-gray-300 space-y-3 list-none">
                                 <li className="flex items-start gap-3">
                                     <span className="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
                                     <span>Implement rigorous vocational training aligned with industry standards.</span>
@@ -100,65 +100,65 @@ export default function Profile() {
             </section>
 
             {/* History Timeline */}
-            <section className="py-16 px-4 md:px-10 bg-white dark:bg-surface-dark">
+            <section className="py-16 px-4 md:px-10 bg-gradient-to-b from-background-dark to-gray-900">
                 <div className="max-w-[960px] mx-auto flex flex-col">
-                    <h2 className="text-neutral-dark dark:text-gray-100 text-3xl font-bold leading-tight tracking-[-0.015em] pb-10 text-center">Our Journey</h2>
+                    <h2 className="text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-10 text-center">Our Journey</h2>
                     <div className="grid grid-cols-[40px_1fr] gap-x-4 md:gap-x-8 px-4">
                         {/* Item 1 */}
                         <div className="flex flex-col items-center gap-1 pt-3">
-                            <div className="text-primary bg-primary/10 p-2 rounded-full">
+                            <div className="text-primary bg-primary/20 p-2 rounded-full">
                                 <span className="material-symbols-outlined">local_florist</span>
                             </div>
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-full grow my-2"></div>
+                            <div className="w-[2px] bg-gray-700 h-full grow my-2"></div>
                         </div>
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">1995</span>
-                            <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">Foundation Established</h3>
-                            <p className="text-gray-900 dark:text-gray-400 mt-2">
+                            <h3 className="text-white text-xl font-bold leading-normal">Foundation Established</h3>
+                            <p className="text-gray-400 mt-2">
                                 The Mudita Foundation was established with the goal of providing quality education and spiritual guidance to the youth of Singkawang.
                             </p>
                         </div>
                         {/* Item 2 */}
                         <div className="flex flex-col items-center gap-1">
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-2"></div>
-                            <div className="text-primary bg-primary/10 p-2 rounded-full">
+                            <div className="w-[2px] bg-gray-700 h-2"></div>
+                            <div className="text-primary bg-primary/20 p-2 rounded-full">
                                 <span className="material-symbols-outlined">school</span>
                             </div>
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-full grow my-2"></div>
+                            <div className="w-[2px] bg-gray-700 h-full grow my-2"></div>
                         </div>
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2000</span>
-                            <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">First Vocational Class</h3>
-                            <p className="text-gray-900 dark:text-gray-400 mt-2">
+                            <h3 className="text-white text-xl font-bold leading-normal">First Vocational Class</h3>
+                            <p className="text-gray-400 mt-2">
                                 SMK Mudita officially opened its doors with its first batch of students in Business and Management.
                             </p>
                         </div>
                         {/* Item 3 */}
                         <div className="flex flex-col items-center gap-1">
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-2"></div>
-                            <div className="text-primary bg-primary/10 p-2 rounded-full">
+                            <div className="w-[2px] bg-gray-700 h-2"></div>
+                            <div className="text-primary bg-primary/20 p-2 rounded-full">
                                 <span className="material-symbols-outlined">apartment</span>
                             </div>
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-full grow my-2"></div>
+                            <div className="w-[2px] bg-gray-700 h-full grow my-2"></div>
                         </div>
                         <div className="flex flex-1 flex-col py-3 pb-12">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2010</span>
-                            <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">New Campus Opening</h3>
-                            <p className="text-gray-900 dark:text-gray-400 mt-2">
+                            <h3 className="text-white text-xl font-bold leading-normal">New Campus Opening</h3>
+                            <p className="text-gray-400 mt-2">
                                 Expansion to the current modern campus facility to accommodate growing student numbers and new technical workshops.
                             </p>
                         </div>
                         {/* Item 4 */}
                         <div className="flex flex-col items-center gap-1 pb-3">
-                            <div className="w-[2px] bg-[#e6dbdc] dark:bg-gray-700 h-2"></div>
-                            <div className="text-primary bg-primary/10 p-2 rounded-full">
+                            <div className="w-[2px] bg-gray-700 h-2"></div>
+                            <div className="text-primary bg-primary/20 p-2 rounded-full">
                                 <span className="material-symbols-outlined">emoji_events</span>
                             </div>
                         </div>
                         <div className="flex flex-1 flex-col py-3">
                             <span className="text-primary font-bold text-sm tracking-widest uppercase mb-1">2022</span>
-                            <h3 className="text-neutral-dark dark:text-gray-100 text-xl font-bold leading-normal">National Accreditation A</h3>
-                            <p className="text-gray-900 dark:text-gray-400 mt-2">
+                            <h3 className="text-white text-xl font-bold leading-normal">National Accreditation A</h3>
+                            <p className="text-gray-400 mt-2">
                                 Achieved the highest level of national accreditation, confirming our status as a premier vocational institution in West Kalimantan.
                             </p>
                         </div>
@@ -167,11 +167,11 @@ export default function Profile() {
             </section>
 
             {/* Leadership Structure */}
-            <section className="py-20 px-4 md:px-10 bg-background-light dark:bg-background-dark">
+            <section className="py-20 px-4 md:px-10 bg-gradient-to-br from-primary/5 via-background-dark to-background-dark">
                 <div className="max-w-[1280px] mx-auto">
                     <div className="text-center max-w-2xl mx-auto mb-16">
-                        <h2 className="text-3xl font-bold text-neutral-dark dark:text-gray-100 mb-4">Organizational Structure</h2>
-                        <p className="text-gray-800 dark:text-gray-400">Meet the dedicated leadership team guiding SMK Mudita towards educational excellence.</p>
+                        <h2 className="text-3xl font-bold text-white mb-4">Organizational Structure</h2>
+                        <p className="text-gray-400">Meet the dedicated leadership team guiding SMK Mudita towards educational excellence.</p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {/* Principal */}
@@ -219,14 +219,14 @@ export default function Profile() {
             </section>
 
             {/* Facilities Gallery */}
-            <section className="py-20 px-4 md:px-10 bg-white dark:bg-surface-dark relative">
+            <section className="py-20 px-4 md:px-10 bg-gradient-to-b from-gray-900 to-background-dark relative">
                 {/* Decorative Oriental border top */}
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
                 <div className="max-w-[1280px] mx-auto">
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                         <div>
-                            <h2 className="text-3xl font-bold text-neutral-dark dark:text-gray-100 mb-2">Campus Facilities</h2>
-                            <p className="text-gray-900 dark:text-gray-400 max-w-xl">
+                            <h2 className="text-3xl font-bold text-white mb-2">Campus Facilities</h2>
+                            <p className="text-gray-400 max-w-xl">
                                 Modern laboratories, comfortable learning spaces, and a spiritual center designed to support holistic student development.
                             </p>
                         </div>
