@@ -41,7 +41,7 @@ export default function Home() {
       </header>
 
       {/* Principal Welcome Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
@@ -50,18 +50,18 @@ export default function Home() {
                 <div className="h-1 w-12 bg-primary rounded-full"></div>
                 <span className="text-primary font-bold tracking-wider text-sm uppercase">Sambutan Kepala Sekolah</span>
               </div>
-              <h2 className="text-[#181111] text-3xl md:text-4xl font-bold leading-tight">
+              <h2 className="text-[#181111] dark:text-white text-3xl md:text-4xl font-bold leading-tight">
                 Pendidikan Berkualitas Berlandaskan <span className="text-primary">Moral & Etika</span>
               </h2>
-              <blockquote className="border-l-4 border-accent-gold pl-6 italic text-gray-600 text-lg leading-relaxed">
+              <blockquote className="border-l-4 border-accent-gold pl-6 italic text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                 {`"Selamat datang di SMK Mudita Singkawang. Kami berkomitmen untuk mendidik siswa dengan nilai-nilai luhur dan keterampilan profesional yang siap bersaing di dunia kerja modern."`}
               </blockquote>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 Kami percaya bahwa kecerdasan intelektual harus sejalan dengan kematangan emosional dan spiritual. Melalui kurikulum yang terintegrasi, kami mempersiapkan lulusan yang tidak hanya ahli di bidangnya, tetapi juga memiliki integritas tinggi.
               </p>
               <div className="pt-4 flex items-center gap-4">
                 <div className="flex flex-col">
-                  <span className="text-[#181111] font-bold text-lg">Bpk. Sutanto, S.Pd., M.M.</span>
+                  <span className="text-[#181111] dark:text-white font-bold text-lg">Bpk. Sutanto, S.Pd., M.M.</span>
                   <span className="text-accent-gold text-sm font-medium">Kepala Sekolah SMK Mudita</span>
                 </div>
                 <img
@@ -96,12 +96,12 @@ export default function Home() {
       </section>
 
       {/* Majors / Program Keahlian Section */}
-      <section className="py-20 bg-background-light">
+      <section className="py-20 bg-background-light dark:bg-gray-800 transition-colors duration-300">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div className="max-w-2xl">
-              <h2 className="text-[#181111] text-3xl md:text-4xl font-bold leading-tight mb-4">Program Keahlian</h2>
-              <p className="text-gray-600 text-lg">Pilih jurusan yang sesuai dengan minat dan bakatmu. Kami menyediakan fasilitas praktik standar industri.</p>
+              <h2 className="text-[#181111] dark:text-white text-3xl md:text-4xl font-bold leading-tight mb-4">Program Keahlian</h2>
+              <p className="text-gray-600 dark:text-gray-300 text-lg">Pilih jurusan yang sesuai dengan minat dan bakatmu. Kami menyediakan fasilitas praktik standar industri.</p>
             </div>
             <Link href="/jurusan" className="text-primary font-bold hover:text-primary-dark flex items-center gap-1 transition-colors">
               Lihat Semua Jurusan
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Card 1: Akuntansi */}
-            <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+            <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <div
@@ -123,15 +123,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">Akuntansi & Keuangan</h3>
-                <p className="text-gray-600 text-sm mb-4 flex-grow">Mempelajari pembukuan, perpajakan, dan sistem informasi keuangan digital.</p>
+                <h3 className="text-xl font-bold text-[#181111] dark:text-white mb-2 group-hover:text-primary transition-colors">Akuntansi & Keuangan</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 flex-grow">Mempelajari pembukuan, perpajakan, dan sistem informasi keuangan digital.</p>
                 <Link href="/jurusan" className="inline-flex items-center text-sm font-bold text-accent-gold hover:text-primary transition-colors">
                   Pelajari Lebih Lanjut
                 </Link>
               </div>
             </div>
             {/* Card 2: TKJ */}
-            <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+            <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <div
@@ -144,15 +144,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">Teknik Komputer & Jaringan</h3>
-                <p className="text-gray-600 text-sm mb-4 flex-grow">Keahlian instalasi jaringan, server administration, dan troubleshooting perangkat keras.</p>
+                <h3 className="text-xl font-bold text-[#181111] dark:text-white mb-2 group-hover:text-primary transition-colors">Teknik Komputer & Jaringan</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 flex-grow">Keahlian instalasi jaringan, server administration, dan troubleshooting perangkat keras.</p>
                 <Link href="/jurusan" className="inline-flex items-center text-sm font-bold text-accent-gold hover:text-primary transition-colors">
                   Pelajari Lebih Lanjut
                 </Link>
               </div>
             </div>
             {/* Card 3: Manajemen Perkantoran */}
-            <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+            <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <div
@@ -165,8 +165,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-[#181111] mb-2 group-hover:text-primary transition-colors">Manajemen Perkantoran</h3>
-                <p className="text-gray-600 text-sm mb-4 flex-grow">Menyiapkan tenaga administrasi profesional dengan kemampuan komunikasi publik yang handal.</p>
+                <h3 className="text-xl font-bold text-[#181111] dark:text-white mb-2 group-hover:text-primary transition-colors">Manajemen Perkantoran</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 flex-grow">Menyiapkan tenaga administrasi profesional dengan kemampuan komunikasi publik yang handal.</p>
                 <Link href="/jurusan" className="inline-flex items-center text-sm font-bold text-accent-gold hover:text-primary transition-colors">
                   Pelajari Lebih Lanjut
                 </Link>
@@ -177,15 +177,15 @@ export default function Home() {
       </section>
 
       {/* News & Achievements Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-10">
-            <h2 className="text-[#181111] text-3xl md:text-4xl font-bold leading-tight">Berita & Prestasi</h2>
+            <h2 className="text-[#181111] dark:text-white text-3xl md:text-4xl font-bold leading-tight">Berita & Prestasi</h2>
             <div className="flex gap-2">
-              <button className="size-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+              <button className="size-10 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all text-gray-600 dark:text-gray-300">
                 <span className="material-symbols-outlined">arrow_back</span>
               </button>
-              <button className="size-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+              <button className="size-10 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all text-gray-600 dark:text-gray-300">
                 <span className="material-symbols-outlined">arrow_forward</span>
               </button>
             </div>
@@ -200,14 +200,14 @@ export default function Home() {
                 >
                 </div>
               </div>
-              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 mb-2">
+              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
                 <span className="text-primary bg-primary/10 px-2 py-1 rounded">Prestasi</span>
                 <span>12 Agustus 2023</span>
               </div>
-              <h3 className="text-lg font-bold text-[#181111] leading-snug mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-lg font-bold text-[#181111] dark:text-white leading-snug mb-2 group-hover:text-primary transition-colors">
                 Juara 1 Lomba Kompetensi Siswa (LKS) Tingkat Provinsi Kalimantan Barat
               </h3>
-              <p className="text-gray-600 text-sm line-clamp-2">
+              <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">
                 Siswa SMK Mudita kembali menorehkan prestasi gemilang di ajang bergengsi tahunan...
               </p>
             </article>
@@ -220,14 +220,14 @@ export default function Home() {
                 >
                 </div>
               </div>
-              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 mb-2">
+              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
                 <span className="text-accent-gold bg-accent-gold/10 px-2 py-1 rounded">Kegiatan</span>
                 <span>10 Agustus 2023</span>
               </div>
-              <h3 className="text-lg font-bold text-[#181111] leading-snug mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-lg font-bold text-[#181111] dark:text-white leading-snug mb-2 group-hover:text-primary transition-colors">
                 Perayaan Waisak Bersama: Menanamkan Nilai Kasih Sayang
               </h3>
-              <p className="text-gray-600 text-sm line-clamp-2">
+              <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">
                 Seluruh keluarga besar SMK Mudita merayakan hari suci Waisak dengan penuh khidmat...
               </p>
             </article>
@@ -240,14 +240,14 @@ export default function Home() {
                 >
                 </div>
               </div>
-              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 mb-2">
-                <span className="text-blue-600 bg-blue-50 px-2 py-1 rounded">Kerjasama</span>
+              <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
+                <span className="text-blue-600 bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded">Kerjasama</span>
                 <span>5 Agustus 2023</span>
               </div>
-              <h3 className="text-lg font-bold text-[#181111] leading-snug mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-lg font-bold text-[#181111] dark:text-white leading-snug mb-2 group-hover:text-primary transition-colors">
                 Penandatanganan MoU dengan 10 Perusahaan Besar di Singkawang
               </h3>
-              <p className="text-gray-600 text-sm line-clamp-2">
+              <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">
                 Meningkatkan penyerapan lulusan, SMK Mudita memperluas jaringan industri...
               </p>
             </article>
