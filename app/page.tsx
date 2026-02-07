@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -64,9 +65,11 @@ export default function Home() {
                   <span className="text-[#181111] dark:text-white font-bold text-lg">Bpk. Sutanto, S.Pd., M.M.</span>
                   <span className="text-accent-gold text-sm font-medium">Kepala Sekolah SMK Mudita</span>
                 </div>
-                <img
+                <Image
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw8XnnP_fIThEHJW5ur7Pqx6AJiT-q_fSu2F6oZUmzrZAsvGYqzbmjB7g34B82krM3Ppgmd1JyuoK0zdyQsEbAwof8yYbEvQo_ka2nUyQTOSQyRZ3VmBGOZi7qJP46ZTIaeYKwLc1OVMvxVd4We9lb2QrU5No0t3xsmcDmuA9EN3lwmlMqOKZPPf5st9vISHVui7siNpkHWgp4n2h4jkOOhhPLSyKllDRlncI2c56ZDWvYbi6H2FXsur9NKgPBIxO3jYq3eUrCEUS4"
                   alt="Signature"
+                  width={512}
+                  height={512}
                   className="h-12 w-auto opacity-50 grayscale hidden"
                 />
               </div>
