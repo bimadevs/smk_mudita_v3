@@ -1,6 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const contactMethods = [
+  {
+    icon: "chat",
+    label: "WhatsApp",
+    value: "+62 812-xxxx-xxxx",
+    description: "Available 9am - 4pm",
+    href: "#",
+    iconBg: "bg-green-50 dark:bg-green-900/20",
+    iconColor: "text-green-600",
+  },
+  {
+    icon: "mail",
+    label: "Email",
+    value: "info@smkmudita.sch.id",
+    description: "General inquiries",
+    href: "#",
+    iconBg: "bg-blue-50 dark:bg-blue-900/20",
+    iconColor: "text-blue-600",
+  },
+  {
+    icon: "call",
+    label: "Phone",
+    value: "(0562) 63xxxx",
+    description: "Front Office",
+    href: "#",
+    iconBg: "bg-red-50 dark:bg-red-900/20",
+    iconColor: "text-primary",
+  },
+];
+
 export default function ContactPage() {
   return (
     <main className="flex-grow w-full flex flex-col">
@@ -26,61 +56,32 @@ export default function ContactPage() {
       <section className="w-full max-w-[1200px] mx-auto px-6 lg:px-20 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-5 flex flex-col gap-5">
-            <Link
-              href="#"
-              className="group flex items-center p-5 bg-white dark:bg-[#2a1d1e] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300"
-            >
-              <div className="size-14 rounded-full bg-green-50 dark:bg-green-900/20 text-green-600 flex items-center justify-center mr-5 shrink-0 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">chat</span>
-              </div>
-              <div>
-                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
-                  WhatsApp
-                </p>
-                <p className="text-lg font-bold text-neutral-dark dark:text-white">
-                  +62 812-xxxx-xxxx
-                </p>
-                <p className="text-xs text-gray-600 mt-1">
-                  Available 9am - 4pm
-                </p>
-              </div>
-            </Link>
-
-            <Link
-              href="#"
-              className="group flex items-center p-5 bg-white dark:bg-[#2a1d1e] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300"
-            >
-              <div className="size-14 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 flex items-center justify-center mr-5 shrink-0 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">mail</span>
-              </div>
-              <div>
-                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
-                  Email
-                </p>
-                <p className="text-lg font-bold text-neutral-dark dark:text-white">
-                  info@smkmudita.sch.id
-                </p>
-                <p className="text-xs text-gray-600 mt-1">General inquiries</p>
-              </div>
-            </Link>
-
-            <Link
-              href="#"
-              className="group flex items-center p-5 bg-white dark:bg-[#2a1d1e] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300"
-            >
-              <div className="size-14 rounded-full bg-red-50 dark:bg-red-900/20 text-primary flex items-center justify-center mr-5 shrink-0 group-hover:scale-110 transition-transform">
-                <span className="material-symbols-outlined text-2xl">call</span>
-              </div>
-              <div>
-                <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
-                  Phone
-                </p>
-                <p className="text-lg font-bold text-neutral-dark dark:text-white">
-                  (0562) 63xxxx
-                </p>
-                <p className="text-xs text-gray-600 mt-1">Front Office</p>
-              </div>
-            </Link>
+            {contactMethods.map((method) => (
+              <Link
+                key={method.label}
+                href={method.href}
+                className="group flex items-center p-5 bg-white dark:bg-[#2a1d1e] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300"
+              >
+                <div
+                  className={`size-14 rounded-full ${method.iconBg} ${method.iconColor} flex items-center justify-center mr-5 shrink-0 group-hover:scale-110 transition-transform`}
+                >
+                  <span className="material-symbols-outlined text-2xl">
+                    {method.icon}
+                  </span>
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">
+                    {method.label}
+                  </p>
+                  <p className="text-lg font-bold text-neutral-dark dark:text-white">
+                    {method.value}
+                  </p>
+                  <p className="text-xs text-gray-600 mt-1">
+                    {method.description}
+                  </p>
+                </div>
+              </Link>
+            ))}
 
             <div className="hidden lg:flex mt-4 p-8 bg-gradient-to-br from-primary to-primary-dark text-white rounded-xl relative overflow-hidden shadow-lg items-center justify-center text-center">
               <div
