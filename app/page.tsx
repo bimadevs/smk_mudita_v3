@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,11 +9,13 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
-          <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBkNolbtwX7Ne21SSYjXYNh5c6wE6ElEe-Q6P8z0JqrUjOMPaiKQe72bPXtCV9-hajOOGkf10vplAQciuVIqPsrPM3wMMZY960e99VSHiVys76Lfu4-hJ40dwnmU4LagmB6CJhHQ5fKH-jC3CYsER6-crZ_rL7FNKZYWLzq6iW_Pzz2SxyZw7Amvfzvlod-5wJ7pD74SQCt-FQqCCNX8iXqGUu5t1Dni248SvWVTjFsvUVQ0nh40gS3B-AH5Dr1TpOIAlk-LCTbGyya')" }}
-          >
-          </div>
+          <Image
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkNolbtwX7Ne21SSYjXYNh5c6wE6ElEe-Q6P8z0JqrUjOMPaiKQe72bPXtCV9-hajOOGkf10vplAQciuVIqPsrPM3wMMZY960e99VSHiVys76Lfu4-hJ40dwnmU4LagmB6CJhHQ5fKH-jC3CYsER6-crZ_rL7FNKZYWLzq6iW_Pzz2SxyZw7Amvfzvlod-5wJ7pD74SQCt-FQqCCNX8iXqGUu5t1Dni248SvWVTjFsvUVQ0nh40gS3B-AH5Dr1TpOIAlk-LCTbGyya')"
+            alt="Hero Background"
+            fill
+            priority
+            className="object-cover object-center"
+          />
         </div>
         <div className="relative z-10 max-w-[1280px] w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full pt-10">
           <div className="max-w-3xl animate-fade-in-up">
@@ -64,23 +67,27 @@ export default function Home() {
                   <span className="text-[#181111] dark:text-white font-bold text-lg">Bpk. Sutanto, S.Pd., M.M.</span>
                   <span className="text-accent-gold text-sm font-medium">Kepala Sekolah SMK Mudita</span>
                 </div>
-                <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw8XnnP_fIThEHJW5ur7Pqx6AJiT-q_fSu2F6oZUmzrZAsvGYqzbmjB7g34B82krM3Ppgmd1JyuoK0zdyQsEbAwof8yYbEvQo_ka2nUyQTOSQyRZ3VmBGOZi7qJP46ZTIaeYKwLc1OVMvxVd4We9lb2QrU5No0t3xsmcDmuA9EN3lwmlMqOKZPPf5st9vISHVui7siNpkHWgp4n2h4jkOOhhPLSyKllDRlncI2c56ZDWvYbi6H2FXsur9NKgPBIxO3jYq3eUrCEUS4"
-                  alt="Signature"
-                  className="h-12 w-auto opacity-50 grayscale hidden"
-                />
+                <div className="relative h-12 w-48 hidden">
+                  <Image
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw8XnnP_fIThEHJW5ur7Pqx6AJiT-q_fSu2F6oZUmzrZAsvGYqzbmjB7g34B82krM3Ppgmd1JyuoK0zdyQsEbAwof8yYbEvQo_ka2nUyQTOSQyRZ3VmBGOZi7qJP46ZTIaeYKwLc1OVMvxVd4We9lb2QrU5No0t3xsmcDmuA9EN3lwmlMqOKZPPf5st9vISHVui7siNpkHWgp4n2h4jkOOhhPLSyKllDRlncI2c56ZDWvYbi6H2FXsur9NKgPBIxO3jYq3eUrCEUS4"
+                    alt="Signature"
+                    fill
+                    className="object-contain object-left opacity-50 grayscale"
+                  />
+                </div>
               </div>
             </div>
             {/* Image */}
             <div className="order-1 lg:order-2 relative">
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-accent-gold/20 rounded-full blur-2xl z-0"></div>
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl z-0"></div>
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl group">
-                <div
-                  className="w-full aspect-[4/5] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuD6ImOS67I0KE5TyKxD5Jkea9OEAS560aA8bzsM9eGHpCplh7rLjE7S9Auw3Jm2w63qG6pN7tbqnED8LCoCESB4X8KPJhgnSSPiqHhDT9VF2vQwUO5Q9f7zHMOoiexn8s8VRC3oSuzW6kkEh5deuYpHYSXhSpFax03TE1f9QDenVfmY5wK4ToTzY9LgKQT-Q4AGwh3sALvks68yyrWBtx3u7PU5yxC3V2ZftZ5OnEBDyx6WzVkwTzwK0Md-CJSCUed2QhRHdz-55IWx')" }}
-                >
-                </div>
+              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl group aspect-[4/5]">
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6ImOS67I0KE5TyKxD5Jkea9OEAS560aA8bzsM9eGHpCplh7rLjE7S9Auw3Jm2w63qG6pN7tbqnED8LCoCESB4X8KPJhgnSSPiqHhDT9VF2vQwUO5Q9f7zHMOoiexn8s8VRC3oSuzW6kkEh5deuYpHYSXhSpFax03TE1f9QDenVfmY5wK4ToTzY9LgKQT-Q4AGwh3sALvks68yyrWBtx3u7PU5yxC3V2ZftZ5OnEBDyx6WzVkwTzwK0Md-CJSCUed2QhRHdz-55IWx')"
+                  alt="Bpk. Sutanto, S.Pd., M.M."
+                  fill
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                />
                 {/* Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 text-white">
@@ -113,11 +120,12 @@ export default function Home() {
             <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                <div
-                  className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOFmGe9aAH84U6hQD6RdzpDBiQJlNdM2gaXEehIJ9us2a-YeVPpaOa5xurjG_ZVIgbUnI-kORqSErckEM9gdKkbO5v6k_g8hZliEAsg760SZ3l12nTNW2D5XIM9_z5j9omCQWmz3BUH5mbaRKHCmizd_7vEl3s8rnLbys6ZfbhoPMGVLrkz-hRsbluO4ThFUznb8WyyHVqtWCzTrWG0QYB3QIQG4YjthOcMLrtq0YELk_KMzp4P8y8ThhG7NnynlZtqwCrAzElOFKT')" }}
-                >
-                </div>
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOFmGe9aAH84U6hQD6RdzpDBiQJlNdM2gaXEehIJ9us2a-YeVPpaOa5xurjG_ZVIgbUnI-kORqSErckEM9gdKkbO5v6k_g8hZliEAsg760SZ3l12nTNW2D5XIM9_z5j9omCQWmz3BUH5mbaRKHCmizd_7vEl3s8rnLbys6ZfbhoPMGVLrkz-hRsbluO4ThFUznb8WyyHVqtWCzTrWG0QYB3QIQG4YjthOcMLrtq0YELk_KMzp4P8y8ThhG7NnynlZtqwCrAzElOFKT')"
+                  alt="Akuntansi & Keuangan"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                />
                 <div className="absolute top-4 right-4 z-20 bg-white p-2 rounded-lg shadow-md">
                   <span className="material-symbols-outlined text-primary">calculate</span>
                 </div>
@@ -134,11 +142,12 @@ export default function Home() {
             <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                <div
-                  className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB7eY7SLGjbBmHW76e1cN3yXresT4iWWsONj2bTMWVb3BypehWyInr6FzfXBjRCvC-gqrwTXgeDgwH2akzGBvWSFt7QoQd8WYWV5iXjmQhbLDLZxFZbnCvbx5gWlvU5Tp4BQI0C-fUG94LSa6to6RR6Wq-wh1UJ2_uRouqJbGskP5zTMJzcpuCMb56pilKwhv9KJC-gkrmRHVNz5aJtF-vNvjtKkEIdIU1GCJSRR-_rMfnfwA85KrC3PwtRYpoQdr918pj_Uq6KxJ_E')" }}
-                >
-                </div>
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7eY7SLGjbBmHW76e1cN3yXresT4iWWsONj2bTMWVb3BypehWyInr6FzfXBjRCvC-gqrwTXgeDgwH2akzGBvWSFt7QoQd8WYWV5iXjmQhbLDLZxFZbnCvbx5gWlvU5Tp4BQI0C-fUG94LSa6to6RR6Wq-wh1UJ2_uRouqJbGskP5zTMJzcpuCMb56pilKwhv9KJC-gkrmRHVNz5aJtF-vNvjtKkEIdIU1GCJSRR-_rMfnfwA85KrC3PwtRYpoQdr918pj_Uq6KxJ_E')"
+                  alt="Teknik Komputer & Jaringan"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                />
                 <div className="absolute top-4 right-4 z-20 bg-white p-2 rounded-lg shadow-md">
                   <span className="material-symbols-outlined text-primary">dns</span>
                 </div>
@@ -155,11 +164,12 @@ export default function Home() {
             <div className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full">
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                <div
-                  className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyNuamwMiME6T8elCossAwA2WHVq9cFZ2LOAYIXSW4EMTSGy_-wcAvbp4CRck0_UbeK24PeZrrJY9S0E4fcrUTfyuvAVlZC1306aK8IH0o52OKp9PMVdG5y_9zw-Ha8A3cXrvH_EuqSdwt5W_pIVrX1A6Z41HmC9pRSEjs5gLwnCvQCXUBabBKmAhzXSteOJQuQSnozrAH3qL4wSMYgSNA5zaHAPTT3IiuS1OOFTmhHdHWLqlXyz8rSg8YNnWMQIwdR2LeLxFrhBKz')" }}
-                >
-                </div>
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyNuamwMiME6T8elCossAwA2WHVq9cFZ2LOAYIXSW4EMTSGy_-wcAvbp4CRck0_UbeK24PeZrrJY9S0E4fcrUTfyuvAVlZC1306aK8IH0o52OKp9PMVdG5y_9zw-Ha8A3cXrvH_EuqSdwt5W_pIVrX1A6Z41HmC9pRSEjs5gLwnCvQCXUBabBKmAhzXSteOJQuQSnozrAH3qL4wSMYgSNA5zaHAPTT3IiuS1OOFTmhHdHWLqlXyz8rSg8YNnWMQIwdR2LeLxFrhBKz')"
+                  alt="Manajemen Perkantoran"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                />
                 <div className="absolute top-4 right-4 z-20 bg-white p-2 rounded-lg shadow-md">
                   <span className="material-symbols-outlined text-primary">domain</span>
                 </div>
@@ -193,12 +203,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* News Item 1 */}
             <article className="flex flex-col group cursor-pointer">
-              <div className="overflow-hidden rounded-lg mb-4">
-                <div
-                  className="w-full aspect-video bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsmRXEHd3RT7d9wKEJPDeI6wsZXrQtx70gztzPCDWbQc7j-Hf0jqm9KALoWl-2d8SsHkENztD-0aB37NfqH5OJjztUz0drBiNPX_fVIUWEPJTp9xW9MuwOUXodovH5CaVBzpGuSqbRSjcGLapLQpSEFdY4K9-H_aKKMOKIPzsSgDAWJb7HP1AUFkU_E6E71tslGXbzo7iaJrGNL8BWFFN8g2o7U0sgA_RYImCyu3FXUGFIdHwhrijjJ_UdTLfGZDWJwjpga543wcAJ')" }}
-                >
-                </div>
+              <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsmRXEHd3RT7d9wKEJPDeI6wsZXrQtx70gztzPCDWbQc7j-Hf0jqm9KALoWl-2d8SsHkENztD-0aB37NfqH5OJjztUz0drBiNPX_fVIUWEPJTp9xW9MuwOUXodovH5CaVBzpGuSqbRSjcGLapLQpSEFdY4K9-H_aKKMOKIPzsSgDAWJb7HP1AUFkU_E6E71tslGXbzo7iaJrGNL8BWFFN8g2o7U0sgA_RYImCyu3FXUGFIdHwhrijjJ_UdTLfGZDWJwjpga543wcAJ')"
+                  alt="Prestasi SMK Mudita"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
               <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
                 <span className="text-primary bg-primary/10 px-2 py-1 rounded">Prestasi</span>
@@ -213,12 +224,13 @@ export default function Home() {
             </article>
             {/* News Item 2 */}
             <article className="flex flex-col group cursor-pointer">
-              <div className="overflow-hidden rounded-lg mb-4">
-                <div
-                  className="w-full aspect-video bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAKFfpynPyRedvavi0xiPJuu1nBq4LCYacNDF4PN60hA2tM2aIi79aKeV8EMNqX_q-XEObh8fhwX69RDrq6DJO_GH8e_46NERBhwpvFbS37FRKLU8HIAzal8DXI6hkXbHunlXbxozGbr-DoV5qzppLSd-xv7xN_Y0DiffOFVE668HJ90lCdojcgXaWt6Ed2VWKcSUTuvdYcTw9ybTclrgW2TWUahnL-EiMQgzSh-KG4qunGI_qJNXiqfKkeOScbu1BX9LSCdPf-DBrt')" }}
-                >
-                </div>
+              <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKFfpynPyRedvavi0xiPJuu1nBq4LCYacNDF4PN60hA2tM2aIi79aKeV8EMNqX_q-XEObh8fhwX69RDrq6DJO_GH8e_46NERBhwpvFbS37FRKLU8HIAzal8DXI6hkXbHunlXbxozGbr-DoV5qzppLSd-xv7xN_Y0DiffOFVE668HJ90lCdojcgXaWt6Ed2VWKcSUTuvdYcTw9ybTclrgW2TWUahnL-EiMQgzSh-KG4qunGI_qJNXiqfKkeOScbu1BX9LSCdPf-DBrt')"
+                  alt="Kegiatan Waisak"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
               <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
                 <span className="text-accent-gold bg-accent-gold/10 px-2 py-1 rounded">Kegiatan</span>
@@ -233,12 +245,13 @@ export default function Home() {
             </article>
             {/* News Item 3 */}
             <article className="flex flex-col group cursor-pointer">
-              <div className="overflow-hidden rounded-lg mb-4">
-                <div
-                  className="w-full aspect-video bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDIhfIWZkr8f_0ntRlDLlbaWXz-tOElfDnBtLOSoMsbdjw2k4X6ZJKR5UDukyTfsi0QtDoKuACrW_RJU3HuUg7TOCfn9A82y_gf_CD_KoiEW_2MriYFWDdlLlWUb-oxskcwG7ETaIO5lqV827bFgavXBlw-nvbbn0lCCt-C_OCvGoxlA2oKLF2rs9yDbfOb2a9og04XcVauIny-ZeGGc0LEZRZJAc8J9dLYyEjiFfHl72y-rCEuyQLUkll-xHhwZAswNNZisZifT5sX')" }}
-                >
-                </div>
+              <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
+                <Image
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIhfIWZkr8f_0ntRlDLlbaWXz-tOElfDnBtLOSoMsbdjw2k4X6ZJKR5UDukyTfsi0QtDoKuACrW_RJU3HuUg7TOCfn9A82y_gf_CD_KoiEW_2MriYFWDdlLlWUb-oxskcwG7ETaIO5lqV827bFgavXBlw-nvbbn0lCCt-C_OCvGoxlA2oKLF2rs9yDbfOb2a9og04XcVauIny-ZeGGc0LEZRZJAc8J9dLYyEjiFfHl72y-rCEuyQLUkll-xHhwZAswNNZisZifT5sX')"
+                  alt="Kerjasama Industri"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
               <div className="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">
                 <span className="text-blue-600 bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded">Kerjasama</span>
