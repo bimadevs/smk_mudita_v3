@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, type Mock } from 'vitest';
 import Navbar from './Navbar';
 import { useTheme } from './ThemeProvider';
 
@@ -10,7 +10,7 @@ vi.mock('./ThemeProvider', () => ({
 
 // Mock next/link
 vi.mock('next/link', () => ({
-  default: ({ children, href, onClick }: any) => (
+  default: ({ children, href, onClick }: { children: React.ReactNode; href: string; onClick?: () => void }) => (
     <a href={href} onClick={onClick}>
       {children}
     </a>
@@ -22,7 +22,7 @@ describe('Navbar Component', () => {
 
   beforeEach(() => {
     vi.clearAllMocks();
-    (useTheme as any).mockReturnValue({
+    (useTheme as Mock).mockReturnValue({
       theme: 'light',
       toggleTheme: mockToggleTheme,
     });

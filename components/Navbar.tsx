@@ -28,7 +28,7 @@ export default function Navbar() {
                         <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/">Beranda</Link>
                         <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/profil">Profil</Link>
                         <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/jurusan">Jurusan</Link>
-                        <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/student-life">Kesiswaan</Link>
+                        <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/blog">Berita</Link>
                         <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/kontak">Kontak</Link>
                     </div>
 
@@ -78,7 +78,7 @@ export default function Navbar() {
                     <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/" onClick={() => setIsMobileMenuOpen(false)}>Beranda</Link>
                     <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/profil" onClick={() => setIsMobileMenuOpen(false)}>Profil</Link>
                     <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/jurusan" onClick={() => setIsMobileMenuOpen(false)}>Jurusan</Link>
-                    <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/student-life" onClick={() => setIsMobileMenuOpen(false)}>Kesiswaan</Link>
+                    <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/blog" onClick={() => setIsMobileMenuOpen(false)}>Berita</Link>
                     <Link className="text-[#181111] dark:text-gray-200 hover:text-primary text-sm font-medium transition-colors" href="/kontak" onClick={() => setIsMobileMenuOpen(false)}>Kontak</Link>
                     <Link href="/ppdb" className="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center gap-2 w-fit" onClick={() => setIsMobileMenuOpen(false)}>
                         <span className="material-symbols-outlined text-[20px]">edit_document</span>

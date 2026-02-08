@@ -29,7 +29,7 @@ export default function Footer() {
                             <li><Link className="hover:text-primary transition-colors" href="/profil">Tentang Kami</Link></li>
                             <li><Link className="hover:text-primary transition-colors" href="/jurusan">Program Keahlian</Link></li>
                             <li><Link className="hover:text-primary transition-colors" href="#">Tenaga Pengajar</Link></li>
-                            <li><Link className="hover:text-primary transition-colors" href="#">Berita Sekolah</Link></li>
+                            <li><Link className="hover:text-primary transition-colors" href="/blog">Berita Sekolah</Link></li>
                             <li><Link className="hover:text-primary transition-colors" href="/ppdb">PPDB</Link></li>
                         </ul>
                     </div>
