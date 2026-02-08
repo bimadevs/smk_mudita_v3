@@ -16,7 +16,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
-        setMounted(true);
+        // eslint-disable-next-line
+        setMounted(true); // Suppressing warning as this is intentional for hydration
         // Check localStorage first
         const savedTheme = localStorage.getItem('theme') as Theme | null;
         if (savedTheme) {
