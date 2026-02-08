@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
           <Image
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkNolbtwX7Ne21SSYjXYNh5c6wE6ElEe-Q6P8z0JqrUjOMPaiKQe72bPXtCV9-hajOOGkf10vplAQciuVIqPsrPM3wMMZY960e99VSHiVys76Lfu4-hJ40dwnmU4LagmB6CJhHQ5fKH-jC3CYsER6-crZ_rL7FNKZYWLzq6iW_Pzz2SxyZw7Amvfzvlod-5wJ7pD74SQCt-FQqCCNX8iXqGUu5t1Dni248SvWVTjFsvUVQ0nh40gS3B-AH5Dr1TpOIAlk-LCTbGyya')"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkNolbtwX7Ne21SSYjXYNh5c6wE6ElEe-Q6P8z0JqrUjOMPaiKQe72bPXtCV9-hajOOGkf10vplAQciuVIqPsrPM3wMMZY960e99VSHiVys76Lfu4-hJ40dwnmU4LagmB6CJhHQ5fKH-jC3CYsER6-crZ_rL7FNKZYWLzq6iW_Pzz2SxyZw7Amvfzvlod-5wJ7pD74SQCt-FQqCCNX8iXqGUu5t1Dni248SvWVTjFsvUVQ0nh40gS3B-AH5Dr1TpOIAlk-LCTbGyya"
             alt="Hero Background"
             fill
             priority
@@ -83,7 +83,7 @@ export default function Home() {
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl z-0"></div>
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl group aspect-[4/5]">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6ImOS67I0KE5TyKxD5Jkea9OEAS560aA8bzsM9eGHpCplh7rLjE7S9Auw3Jm2w63qG6pN7tbqnED8LCoCESB4X8KPJhgnSSPiqHhDT9VF2vQwUO5Q9f7zHMOoiexn8s8VRC3oSuzW6kkEh5deuYpHYSXhSpFax03TE1f9QDenVfmY5wK4ToTzY9LgKQT-Q4AGwh3sALvks68yyrWBtx3u7PU5yxC3V2ZftZ5OnEBDyx6WzVkwTzwK0Md-CJSCUed2QhRHdz-55IWx')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6ImOS67I0KE5TyKxD5Jkea9OEAS560aA8bzsM9eGHpCplh7rLjE7S9Auw3Jm2w63qG6pN7tbqnED8LCoCESB4X8KPJhgnSSPiqHhDT9VF2vQwUO5Q9f7zHMOoiexn8s8VRC3oSuzW6kkEh5deuYpHYSXhSpFax03TE1f9QDenVfmY5wK4ToTzY9LgKQT-Q4AGwh3sALvks68yyrWBtx3u7PU5yxC3V2ZftZ5OnEBDyx6WzVkwTzwK0Md-CJSCUed2QhRHdz-55IWx"
                   alt="Bpk. Sutanto, S.Pd., M.M."
                   fill
                   className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOFmGe9aAH84U6hQD6RdzpDBiQJlNdM2gaXEehIJ9us2a-YeVPpaOa5xurjG_ZVIgbUnI-kORqSErckEM9gdKkbO5v6k_g8hZliEAsg760SZ3l12nTNW2D5XIM9_z5j9omCQWmz3BUH5mbaRKHCmizd_7vEl3s8rnLbys6ZfbhoPMGVLrkz-hRsbluO4ThFUznb8WyyHVqtWCzTrWG0QYB3QIQG4YjthOcMLrtq0YELk_KMzp4P8y8ThhG7NnynlZtqwCrAzElOFKT')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOFmGe9aAH84U6hQD6RdzpDBiQJlNdM2gaXEehIJ9us2a-YeVPpaOa5xurjG_ZVIgbUnI-kORqSErckEM9gdKkbO5v6k_g8hZliEAsg760SZ3l12nTNW2D5XIM9_z5j9omCQWmz3BUH5mbaRKHCmizd_7vEl3s8rnLbys6ZfbhoPMGVLrkz-hRsbluO4ThFUznb8WyyHVqtWCzTrWG0QYB3QIQG4YjthOcMLrtq0YELk_KMzp4P8y8ThhG7NnynlZtqwCrAzElOFKT"
                   alt="Akuntansi & Keuangan"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
@@ -143,7 +143,7 @@ export default function Home() {
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7eY7SLGjbBmHW76e1cN3yXresT4iWWsONj2bTMWVb3BypehWyInr6FzfXBjRCvC-gqrwTXgeDgwH2akzGBvWSFt7QoQd8WYWV5iXjmQhbLDLZxFZbnCvbx5gWlvU5Tp4BQI0C-fUG94LSa6to6RR6Wq-wh1UJ2_uRouqJbGskP5zTMJzcpuCMb56pilKwhv9KJC-gkrmRHVNz5aJtF-vNvjtKkEIdIU1GCJSRR-_rMfnfwA85KrC3PwtRYpoQdr918pj_Uq6KxJ_E')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7eY7SLGjbBmHW76e1cN3yXresT4iWWsONj2bTMWVb3BypehWyInr6FzfXBjRCvC-gqrwTXgeDgwH2akzGBvWSFt7QoQd8WYWV5iXjmQhbLDLZxFZbnCvbx5gWlvU5Tp4BQI0C-fUG94LSa6to6RR6Wq-wh1UJ2_uRouqJbGskP5zTMJzcpuCMb56pilKwhv9KJC-gkrmRHVNz5aJtF-vNvjtKkEIdIU1GCJSRR-_rMfnfwA85KrC3PwtRYpoQdr918pj_Uq6KxJ_E"
                   alt="Teknik Komputer & Jaringan"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
@@ -165,7 +165,7 @@ export default function Home() {
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/80 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyNuamwMiME6T8elCossAwA2WHVq9cFZ2LOAYIXSW4EMTSGy_-wcAvbp4CRck0_UbeK24PeZrrJY9S0E4fcrUTfyuvAVlZC1306aK8IH0o52OKp9PMVdG5y_9zw-Ha8A3cXrvH_EuqSdwt5W_pIVrX1A6Z41HmC9pRSEjs5gLwnCvQCXUBabBKmAhzXSteOJQuQSnozrAH3qL4wSMYgSNA5zaHAPTT3IiuS1OOFTmhHdHWLqlXyz8rSg8YNnWMQIwdR2LeLxFrhBKz')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyNuamwMiME6T8elCossAwA2WHVq9cFZ2LOAYIXSW4EMTSGy_-wcAvbp4CRck0_UbeK24PeZrrJY9S0E4fcrUTfyuvAVlZC1306aK8IH0o52OKp9PMVdG5y_9zw-Ha8A3cXrvH_EuqSdwt5W_pIVrX1A6Z41HmC9pRSEjs5gLwnCvQCXUBabBKmAhzXSteOJQuQSnozrAH3qL4wSMYgSNA5zaHAPTT3IiuS1OOFTmhHdHWLqlXyz8rSg8YNnWMQIwdR2LeLxFrhBKz"
                   alt="Manajemen Perkantoran"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
@@ -205,7 +205,7 @@ export default function Home() {
             <article className="flex flex-col group cursor-pointer">
               <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsmRXEHd3RT7d9wKEJPDeI6wsZXrQtx70gztzPCDWbQc7j-Hf0jqm9KALoWl-2d8SsHkENztD-0aB37NfqH5OJjztUz0drBiNPX_fVIUWEPJTp9xW9MuwOUXodovH5CaVBzpGuSqbRSjcGLapLQpSEFdY4K9-H_aKKMOKIPzsSgDAWJb7HP1AUFkU_E6E71tslGXbzo7iaJrGNL8BWFFN8g2o7U0sgA_RYImCyu3FXUGFIdHwhrijjJ_UdTLfGZDWJwjpga543wcAJ')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsmRXEHd3RT7d9wKEJPDeI6wsZXrQtx70gztzPCDWbQc7j-Hf0jqm9KALoWl-2d8SsHkENztD-0aB37NfqH5OJjztUz0drBiNPX_fVIUWEPJTp9xW9MuwOUXodovH5CaVBzpGuSqbRSjcGLapLQpSEFdY4K9-H_aKKMOKIPzsSgDAWJb7HP1AUFkU_E6E71tslGXbzo7iaJrGNL8BWFFN8g2o7U0sgA_RYImCyu3FXUGFIdHwhrijjJ_UdTLfGZDWJwjpga543wcAJ"
                   alt="Prestasi SMK Mudita"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
@@ -226,7 +226,7 @@ export default function Home() {
             <article className="flex flex-col group cursor-pointer">
               <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKFfpynPyRedvavi0xiPJuu1nBq4LCYacNDF4PN60hA2tM2aIi79aKeV8EMNqX_q-XEObh8fhwX69RDrq6DJO_GH8e_46NERBhwpvFbS37FRKLU8HIAzal8DXI6hkXbHunlXbxozGbr-DoV5qzppLSd-xv7xN_Y0DiffOFVE668HJ90lCdojcgXaWt6Ed2VWKcSUTuvdYcTw9ybTclrgW2TWUahnL-EiMQgzSh-KG4qunGI_qJNXiqfKkeOScbu1BX9LSCdPf-DBrt')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKFfpynPyRedvavi0xiPJuu1nBq4LCYacNDF4PN60hA2tM2aIi79aKeV8EMNqX_q-XEObh8fhwX69RDrq6DJO_GH8e_46NERBhwpvFbS37FRKLU8HIAzal8DXI6hkXbHunlXbxozGbr-DoV5qzppLSd-xv7xN_Y0DiffOFVE668HJ90lCdojcgXaWt6Ed2VWKcSUTuvdYcTw9ybTclrgW2TWUahnL-EiMQgzSh-KG4qunGI_qJNXiqfKkeOScbu1BX9LSCdPf-DBrt"
                   alt="Kegiatan Waisak"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
@@ -247,7 +247,7 @@ export default function Home() {
             <article className="flex flex-col group cursor-pointer">
               <div className="overflow-hidden rounded-lg mb-4 relative aspect-video">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIhfIWZkr8f_0ntRlDLlbaWXz-tOElfDnBtLOSoMsbdjw2k4X6ZJKR5UDukyTfsi0QtDoKuACrW_RJU3HuUg7TOCfn9A82y_gf_CD_KoiEW_2MriYFWDdlLlWUb-oxskcwG7ETaIO5lqV827bFgavXBlw-nvbbn0lCCt-C_OCvGoxlA2oKLF2rs9yDbfOb2a9og04XcVauIny-ZeGGc0LEZRZJAc8J9dLYyEjiFfHl72y-rCEuyQLUkll-xHhwZAswNNZisZifT5sX')"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIhfIWZkr8f_0ntRlDLlbaWXz-tOElfDnBtLOSoMsbdjw2k4X6ZJKR5UDukyTfsi0QtDoKuACrW_RJU3HuUg7TOCfn9A82y_gf_CD_KoiEW_2MriYFWDdlLlWUb-oxskcwG7ETaIO5lqV827bFgavXBlw-nvbbn0lCCt-C_OCvGoxlA2oKLF2rs9yDbfOb2a9og04XcVauIny-ZeGGc0LEZRZJAc8J9dLYyEjiFfHl72y-rCEuyQLUkll-xHhwZAswNNZisZifT5sX"
                   alt="Kerjasama Industri"
                   fill
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
